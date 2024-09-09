@@ -1,4 +1,4 @@
-/* Navbar Styling */
+
 .navbar {
     background-color: dimgrey;
     color: white;
@@ -8,17 +8,16 @@
     align-items: center;
     font-family: 'Arial', sans-serif;
     font-weight: bold;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para darle profundidad */
-    position: fixed; /* Fija la navbar en la parte superior */
-    top: 0; /* Alinea la navbar en la parte superior */
-    left: 0; /* Alinea la navbar a la izquierda */
-    width: 100%; /* Asegura que la navbar ocupe todo el ancho de la ventana */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    position: fixed; 
+    top: 0; /
+    left: 0; /
+    width: 100%;
     z-index: 1000;
 }
 
-/* Asegura que el contenido principal no se superponga con la navbar fija */
 .main-content {
-    margin-top: 60px; /* Ajusta este valor si es necesario para que el contenido no quede oculto detrás de la navbar */
+    margin-top: 60px;
 }
 
 /* Branding Styling */
@@ -27,11 +26,10 @@
     font-family: "Rapier Zero", serif;
 }
 
-/* Menu Styling */
 .navbar-menu {
     list-style: none;
-    display: flex; /* Usa flexbox para alinear horizontalmente los elementos del menú */
-    gap: 20px; /* Espacio entre los elementos del menú */
+    display: flex; /* Usa fl
+    gap: 20px;
     margin: 0;
     padding: 0;
 }
@@ -40,7 +38,6 @@
     display: inline;
 }
 
-/* Link Styling */
 .navbar-menu a {
     text-decoration: none;
     color: lightgray;
