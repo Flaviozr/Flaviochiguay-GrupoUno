@@ -1,6 +1,6 @@
 import React from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
-import './Navbar.css'; // Mantén tus estilos personalizados si los tienes
+import './Navbar.css';
 
 function CustomNavbar() {
     return (
