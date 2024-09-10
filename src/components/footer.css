@@ -1,20 +1,14 @@
-/* Estilo del footer */
-.footer {
+footer {
     background-color: #343a40;
-    color: #fff;
-    padding: 1.5rem 0;
-    position: fixed;
-    bottom: 0;
+    color: #f8f9fa;
+    padding: 2rem 0;
     width: 100%;
+    position: relative;
+    text-align: center;
+    margin-top: auto;
 }
 
-.footer .social-links a {
-    color: #fff;
-    margin: 0 10px;
-    font-size: 1.5rem;
-    text-decoration: none;
-}
-
-.footer .social-links a:hover {
-    color: #ccc;
+footer .container {
+    max-width: 1280px;
+    margin: 0 auto;
 }
