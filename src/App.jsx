@@ -46,6 +46,7 @@ function App() {
     return (
         <div className="d-flex flex-column min-vh-100">
             <Header />
+
             <main className="container mt-5">
                 <div className="row main-layout">
                     <div className="information-section">
