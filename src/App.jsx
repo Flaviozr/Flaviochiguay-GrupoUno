@@ -38,13 +38,11 @@ function App() {
         { id: 13, image: productImage13, title: 'Zapatillas Nike Journey Run', price: '$79.990' },
         { id: 14, image: productImage14, title: 'Adidas Zapatillas Gazelle Chile Originals', price: '$59.990' }
     ];
-
     const itemsPerSlide = 4;
     const slides = [];
     for (let i = 0; i < products.length; i += itemsPerSlide) {
         slides.push(products.slice(i, i + itemsPerSlide));
     }
-
     return (
         <div className="d-flex flex-column min-vh-100">
             <Header />
@@ -84,16 +82,14 @@ function App() {
                         </Carousel>
                     </div>
                 </div>
-
-                <h1 className="text-center my-5">¡GRANDES MARCAS AL MEJOR PRECIO!</h1>
-
-                <div className="product-carousel">
-                    <Carousel interval={5000} indicators={false} controls={true}>
-                        {slides.map((slide, index) => (
-                            <Carousel.Item key={index}>
-                                <div className="row">
-                                    {slide.map((product) => (
-                                        <div key={product.id} className="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <h1 className="text-center my-5">¡GRANDES MARCAS AL MEJOR PRECIO!</h1>
+                        <div className="product-carousel">
+                            <Carousel interval={5000} indicators={false} controls={true}>
+                                {slides.map((slide, index) => (
+                                    <Carousel.Item key={index}>
+                                        <div className="row">
+                                            {slide.map((product) => (
+                                          <div key={product.id} className="col-lg-3 col-md-4 col-sm-6 mb-4">
                                             <div className="card shadow-sm border-0">
                                                 <img src={product.image} className="card-img-top product-img" alt={product.title} />
                                                 <div className="card-body text-center">
