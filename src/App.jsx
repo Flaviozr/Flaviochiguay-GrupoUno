@@ -7,6 +7,7 @@ import Footer from './components/Footer/Footer.jsx';
 import { fetchProducts } from '/src/Data/asyncMock.jsx';
 
 
+
 function App() {
     const [products, setProducts] = useState([]);
 
