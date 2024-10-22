@@ -2,6 +2,7 @@ import React from 'react';
 import './Footer.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
+>>>>>>>>> Temporary merge branch 2
 
 const Footer = () => {
     return (
@@ -26,11 +27,11 @@ const Footer = () => {
                     <div className="col-md-3 mb-4">
                         <h5 className="text-uppercase mb-3">Contacto</h5>
                         <p>Email: <a href="mailto:Flavioluis.chiguay@alumnosulagos.cl" className="text-light text-decoration-none">Flavioluis.chiguay@alumnosulagos.cl</a></p>
-                        <p>Teléfono: +56998672468</p>
-                        <p>Dirección: Calle Blanco 123, Castro, Chile</p>
+                        <p>Teléfono: +56998672468 </p>
+                        <p>Dirección: CALLE BLANCO 123, CASTRO, CHILE</p>
                     </div>
                     <div className="col-md-3 mb-4">
-                        <h5 className="text-uppercase mb-3">Síguenos</h5>
+                        <h5 className="text-uppercase mb-3">SIGUENOS</h5>
                         <div className="social-icons">
                             <a href="https://www.facebook.com/" className="text-light me-3 fs-4"><i className="bi bi-facebook"></i></a>
                             <a href="https://x.com/?lang=es" className="text-light me-3 fs-4"><i className="bi bi-twitter"></i></a>
@@ -40,7 +41,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="text-center mt-4">
-                    <p className="mb-0">&copy; 2024 King Store. Todos los derechos reservados.</p>
+                    <p className="mb-0">&copy; 2024 KING  STORE. Todos los derechos reservados.</p>
                 </div>
             </div>
         </footer>
