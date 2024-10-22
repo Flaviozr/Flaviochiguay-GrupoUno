@@ -1,10 +1,9 @@
-import Itemlist  from "../Itemlist/Itemlist.jsx";
-import Loading from "src/components/Loading/Loading.jsx";
-import Item from "../Item/Item.jsx";
-import App from "../../App.jsx";
+import { Link } from 'react-router-dom';
 
-export default function ProductPage(){
+
+export default function HeaderComponents(){
     return(
+
         <div className= "container mx-auto">
             <Item/>
         </div>
