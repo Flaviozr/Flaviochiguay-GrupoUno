@@ -1,8 +1,5 @@
 import React from 'react';
-import './Footer.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap-icons/font/bootstrap-icons.css';
->>>>>>>>> Temporary merge branch 2
+import 'src/App.jsx';
 
 const Footer = () => {
     return (
