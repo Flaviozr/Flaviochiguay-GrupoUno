@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 const Header = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a className="navbar-brand" href="#">KING   STORE</a>
+            <a className="navbar-brand" href="#"> REAL  KING   STORE</a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
@@ -20,6 +20,9 @@ const Header = () => {
                     </li>
                     <li className="nav-item">
                         <a className="nav-link" href="#">NIÑOS</a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link" href="#">PRODUCTOS</a>
                     </li>
                 </ul>
             </div>
