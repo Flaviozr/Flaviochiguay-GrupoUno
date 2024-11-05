@@ -1,16 +1,16 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from './components/Header/Header.jsx';
-import Footer from './components/Footer/Footer.jsx';
+import Header from './Components/Header/Header.jsx';
+import Footer from './Components/Footer/Footer.jsx';
 import { fetchProducts } from './data/Zapatillas.jsx';
-import Home from './components/Home/Home.jsx';
-import Marcas from './components/Marcas/Marcas.jsx';
-import Adultos from './components/Adultos/Adultos.jsx';
-import Ninos from './components/Ninos/Ninos.jsx';
-import Productos from './components/Productos/Productos.jsx';
-import ItemList from './components/ItemList/ItemList.jsx';
-import Item from "./components/Item/Item.jsx";
+import Home from './Components/Home/Home.jsx';
+import Marcas from './Components/Marcas/Marcas.jsx';
+import Adultos from './Components/Adultos/Adultos.jsx';
+import Ninos from './Components/Ninos/Ninos.jsx';
+import Productos from './Components/Productos/Productos.jsx';
+import ItemList from './Components/ItemList/ItemList.jsx';
+import Item from "./Components/Item/Item.jsx";
 import './App.css';
 
 function App() {
