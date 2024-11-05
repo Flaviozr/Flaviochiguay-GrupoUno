@@ -1,55 +1,55 @@
 .navbar {
-    background-color: steelblue;
-    color: peachpuff;
-    padding: 10px 20px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('https://static.vecteezy.com/system/resources/previews/008/484/977/non_2x/abstract-3d-elegant-template-geometric-white-and-black-background-with-gold-lines-diagonal-and-copy-space-for-text-luxury-style-free-vector.jpg') center/cover no-repeat;
+    color: #FFDAB9;
+    padding: 20px 30px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    font-family: 'Arial', sans-serif;
-    font-weight: bold;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    position: fixed;
+    font-weight: 900;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+    position: sticky;
     top: 0;
-    left: 0;
     width: 100%;
     z-index: 1000;
+    transition: background-color 0.9s ease;
 }
-
-
-.main-content {
-    margin-top: 60px;
-}
-
 
 .navbar-brand {
-    font-size: 28px;
+    font-size: 80px;
     font-family: "Rapier Zero", serif;
-    color: dimgrey;
+    color: #f8f9fa;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    transition: color 0.3s ease, transform 0.3s ease;
 }
 
-
-.navbar-menu {
-    list-style: none;
-    display: flex;
-    gap: 40px;
-    margin: 0;
-    padding: 0;
+.navbar-brand:hover {
+    color: #FFD700;
+    transform: scale(1.08);
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
 }
-
-.navbar-menu li {
-    display: inline;
-}
-
 
 .navbar-menu a {
-    text-decoration: none;
-    color: ivory;
-    font-size: 18px;
-    font-family: Verdana, sans-serif;
-    transition: color 0.3s ease, text-decoration 0.3s ease;
+    color: #F8F9FA;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar-menu a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #FFD700;
+    bottom: -4px;
+    left: 0;
+    transition: width 0.3s ease;
 }
 
 .navbar-menu a:hover {
-    color: steelblue;
-    text-decoration: underline;
+    color: #FFD700;
+    transform: translateY(-2px);
+}
+.navbar-menu a:hover::after {
+    width: 100%;
 }

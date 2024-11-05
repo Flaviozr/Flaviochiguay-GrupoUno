@@ -1,13 +1,14 @@
 import React from 'react';
 
-const Niños = () => {
+const Ninos = () => {
     return (
         <div>
-            <h2 className="text-center my-5">Ropa para Niños</h2>
-            <p className="text-center">Descubre nuestra divertida colección de ropa para niños.</p>
-            {/* Agrega aquí la lógica para mostrar productos para niños, si es necesario */}
+            <h1 className="text-center my-4">Zapatillas para Niños</h1>
+            <p className="text-center">Encuentra las zapatillas más cómodas para tus pequeños.</p>
+            {/* Añade aquí el contenido de las zapatillas para niños */}
         </div>
     );
 };
 
-export default Niños;
+export default Ninos;
+

@@ -1,33 +1,20 @@
-import './Header.css';
-import 'bootstrap/dist/css/bootstrap.min.css'
+// eslint-disable-next-line no-unused-vars
+import React from 'react';
+import { Link } from 'react-router-dom';
+import './Header.css'; // Asegúrate de tener el archivo CSS correspondiente
 
 const Header = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a className="navbar-brand" href="#"> REAL  KING   STORE</a>
-            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon"></span>
-            </button>
-            <div className="collapse navbar-collapse" id="navbarNav">
-                <ul className="navbar-nav">
-                    <li className="nav-item active">
-                        <a className="nav-link" href="#">INICIO</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="#">MARCAS</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="#">ADULTOS</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="#">NIÑOS</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="#">PRODUCTOS</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+        <header className="navbar">
+            <div className="navbar-brand">REAL  KING STORE </div>
+            <ul className="navbar-menu">
+                <li><Link to="/Home">Inicio</Link></li>
+                <li><Link to="/Marcas">Marcas</Link></li>
+                <li><Link to="/Adultos">Adultos</Link></li>
+                <li><Link to="/Ninos">Ninos</Link></li>
+                <li><Link to="/Productos">Productos</Link></li>
+            </ul>
+        </header>
     );
 };
 

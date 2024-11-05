@@ -1,13 +1,13 @@
+// eslint-disable-next-line no-unused-vars
 import React from 'react';
-import './Footer.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
->>>>>>>>> Temporary merge branch 2
+import './Footer.css'; // Asegúrate de que la ruta sea correcta
 
 const Footer = () => {
     return (
-        <footer className="bg-dark text-light pt-5 pb-4">
-            <div className="container-fluid">
+        <footer>
+            <div className="container">
                 <div className="row">
                     <div className="col-md-3 mb-4">
                         <h5 className="text-uppercase mb-3">Acerca de Nosotros</h5>
@@ -26,12 +26,12 @@ const Footer = () => {
                     </div>
                     <div className="col-md-3 mb-4">
                         <h5 className="text-uppercase mb-3">Contacto</h5>
-                        <p>Email: <a href="mailto:Flavioluis.chiguay@alumnosulagos.cl" className="text-light text-decoration-none">Flavioluis.chiguay@alumnosulagos.cl</a></p>
-                        <p>Teléfono: +56998672468 </p>
+                        <p>Email: <a href="https://www.google.com/intl/es-419/gmail/about/" className="text-light text-decoration-none">Flavioluis.chiguay@alumnosulagos.cl</a></p>
+                        <p>Teléfono: +56998672468</p>
                         <p>Dirección: CALLE BLANCO 123, CASTRO, CHILE</p>
                     </div>
                     <div className="col-md-3 mb-4">
-                        <h5 className="text-uppercase mb-3">SIGUENOS</h5>
+                        <h5 className="text-uppercase mb-3">Síguenos</h5>
                         <div className="social-icons">
                             <a href="https://www.facebook.com/" className="text-light me-3 fs-4"><i className="bi bi-facebook"></i></a>
                             <a href="https://x.com/?lang=es" className="text-light me-3 fs-4"><i className="bi bi-twitter"></i></a>
@@ -41,7 +41,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="text-center mt-4">
-                    <p className="mb-0">&copy; 2024 KING  STORE. Todos los derechos reservados.</p>
+                    <p className="mb-0">&copy; 2024 Tu Empresa. Todos los derechos reservados.</p>
                 </div>
             </div>
         </footer>
